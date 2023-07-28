@@ -1,0 +1,47 @@
+{
+  "responses": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "howdy"],
+      "responses": ["Hello! How can I help you?", "Hi there!", "Hey, what's up?"]
+    },
+    {
+      "tag": "pizza_types",
+      "patterns": ["pizza types", "types of pizza", "pizza options"],
+      "responses": [
+        "We have several pizza types available. We offer Margherita, Pepperoni, Veggie, and BBQ Chicken pizzas. Which one would you like?",
+        "Our pizza selection includes Margherita, Pepperoni, Veggie, and BBQ Chicken. What's your favorite?"
+      ]
+    },
+    {
+      "tag": "margherita",
+      "patterns": ["margherita"],
+      "responses": ["Great choice! Margherita pizza is a classic and delicious option. Would you like to add any toppings?"]
+    },
+    {
+      "tag": "pepperoni",
+      "patterns": ["pepperoni"],
+      "responses": ["Pepperoni is a popular choice! It comes with pepperoni slices and lots of cheese. Anything else you want to know?"]
+    },
+    {
+      "tag": "veggie",
+      "patterns": ["veggie", "vegetarian"],
+      "responses": ["Veggie pizza is a healthy option with various fresh vegetables as toppings. Would you like to customize it?"]
+    },
+    {
+      "tag": "bbq_chicken",
+      "patterns": ["bbq chicken", "bbq chicken pizza"],
+      "responses": ["BBQ Chicken pizza is a flavorful choice with BBQ sauce, chicken, and onions. Anything else I can assist you with?"]
+    },
+    {
+      "tag": "compliment",
+      "patterns": ["I like", "I love", "I prefer"],
+      "responses": ["That's awesome! We aim to please. What else can I help you with?"]
+    },
+    {
+      "tag": "fallback",
+      "patterns": ["*"],
+      "responses": ["I'm sorry, I'm not sure I understand. Could you please clarify?"]
+    }
+  ]
+}
